@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <style>
+
+            body nav div h2 a.heading{
+                color: aliceblue;
+            }
+    
+        </style>
+
+
+
+        </head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="nav navbar-nav">
+            <h2><a class="heading">Add Buses</a></h2>
+        </div>
+    </nav>
+       
+    </div>
+</nav>
+
+    <div id="container">
+        
+      <center>  
+        <br>
+        <br>
+        <form onsubmit="addBus()">
+            <table>
+            
+            <tr>   
+         <td> Enter busId :</td><td><input type="text" name="busId" id="busId" placeholder="Enter busid " required /></td>
+            </tr>
+
+            <tr>
+           <td> Enter Bus Name:</td><td><input type="text" name="busName" id="busName" placeholder="Enter busname" required /></td>
+            </tr>
+
+            <tr>
+           <td> Enter From Location:</td><td><input type="text" name="fromLocation" id="fromLocation" placeholder="Enter fromlocation" required /></td>
+            </tr>
+        
+           <tr>
+            <td>Enter To Location:</td><td><input type="text" name="toLocation" id="toLocation" placeholder="Enter tolocation" required /></td>
+            </tr>
+
+            <tr>
+           <td> Enter Journey Date:</td><td><input type="date" name="journeyDate" id="journeyDate" placeholder="Enter journeydate" required /></td>
+            </tr>
+
+            <tr>
+           <td>Enter Travelling Time:</td><td><input type="text" name="travellingTime" id="travellingTime" placeholder="Enter travellingTime" required /></td>
+            </tr>
+
+            <tr>
+           <td> Enter Ticket Price:</td><td><input type="number" name="ticketPrice" id="ticketPrice" placeholder="Enter ticketPrice" required /></td>
+            </tr>
+
+            <tr>
+           <td> Enter Maximum Seats:</td><td><input type="number" name="maxSeats" id="maxSeats" placeholder="Enter maxSeats" required /></td>
+            </tr>
+
+            <tr>
+           <td> Enter Available Seats:</td><td><input type="number" name="availableSeats" id="availableSeats" placeholder="Enter availableSeats"/></td>
+                
+            </tr>
+        </table><br>
+            <button type="submit"class="btn btn-success">Search</button>
+            
+        </form>
+    
+    </div>
+
+
+
+    
+    
+    <script src="addBus.js"></script>
+</center>
+</body>
+
+</html>
